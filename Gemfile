@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # PostgreSQL driver for database
-gem 'pg'
+#gem 'pg'
 
 # Sinatra driver for request handling
 gem 'sinatra', '~> 1.0'
@@ -20,6 +20,9 @@ gem 'rake'
 gem 'shotgun'
 # Hashing utility for username/password auth
 gem 'bcrypt'
+
+#ERB
+gem 'erubi', '~> 1.8'
 
 group :test do
   #more matchers! onelinerz
