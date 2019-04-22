@@ -1,1 +1,1 @@
-web: bundle exec shotgun -p $PORT
+web: bundle exec shotgun --server=thin --port=$PORT config.ru
