@@ -31,7 +31,7 @@ configure do
   set :session_secret, ENV['SESSION_SECRET'] || 'this is a secret shhhhhhh'
 
   set :views, File.join(Sinatra::Application.root, "app", "views")
-   set :public_folder
+  # set :public_folder
 end
 
 # Set up controllers and helpers
