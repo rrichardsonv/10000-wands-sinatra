@@ -20,7 +20,7 @@ gem 'nokogiri', '~> 1.6.7.1'
 # Command line utility
 gem 'rake'
 # Web server utility
-gem 'shotgun'
+gem 'puma'
 # Hashing utility for username/password auth
 gem 'bcrypt'
 
